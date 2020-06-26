@@ -1,0 +1,17 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    list-style: none;
+    padding-top: 30px;
+    &__link {
+        list-style: none;
+        font-size: 15px;
+        line-height: 16px;
+        font-weight: 400;
+        color: #ffffff;
+        &:hover {
+            color: #ec644b;
+        }
+    }
+}

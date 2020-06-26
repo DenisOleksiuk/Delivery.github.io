@@ -1,0 +1,82 @@
+.promo {
+    position: relative;
+    min-height: 680px;
+    padding: 23px 0 82px 0;
+    background: url(../img/air_bg.png) center (center/cover) no-repeat;
+    &__number {
+        vertical-align: middle;
+    }
+    &__call {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+        text-align: right;
+        color: #ffffff;
+    }
+    &__phone {
+        margin-top: 5px;
+        text-transform: uppercase;
+        font-size: 17px;
+        line-height: 24px;
+        font-weight: 700;
+        margin-left: 9px;
+        color: #ffffff;
+    }
+    &__text {
+        text-align: center;
+        font-size: 24px;
+        line-height: 1.2;
+        font-weight: 300;
+        margin-top: 9px;
+        color: #ffffff;
+    }
+    &__main-text {
+        font-size: 72px;
+        line-height: 1.2;
+        text-align: center;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ec644b;
+    }
+    &__subtext {
+        font-size: 42px;
+        text-align: center;
+        line-height: 1.2;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    &__lines {
+        display: flex;
+        
+        width: 809px;
+        margin: 38px auto;
+        span {
+            height: 6px;
+            width: 6px;
+            border-radius: 100%;
+            margin: auto;
+            background-color: #fff;
+        }
+    }
+    &__line {
+        width: 385px;
+    }
+    &__wrapper {
+        margin: 26px auto;
+    }
+    &__item {
+        text-align: center;
+        &_first {
+            margin-top: 7px;    
+        }
+    }
+    &__descr {
+        margin-top: 19px;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 300;
+        text-align: center;
+        color: #ffffff;
+    }
+}
